@@ -65,7 +65,7 @@ The same preprocessing steps applied to the training data are applied to the tes
 
 ### Property Prices
 
-![Bar Chart: Property Prices](https://imgur.com/a/RKBNrhb)
+![Imgur](https://imgur.com/mHVQhNB)
 
 - **Bar Chart**: Indicates higher average property prices in Kuala Lumpur (mean value: RM1900) compared to Selangor (mean value: RM1350).
   - **Kuala Lumpur**: Higher prices due to greater employment opportunities, better transportation networks, lifestyle attractions, higher population density, and urbanization.
@@ -73,7 +73,7 @@ The same preprocessing steps applied to the training data are applied to the tes
 
 ### Property Types
 
-![Stacked Bar Chart: Property Types](images/property_types_stacked_bar_chart.png)
+![Stacked Bar Chart: Property Types](https://i.imgur.com/your_stacked_bar_chart_image_link.png)
 
 - **Stacked Bar Chart**: Condominiums are the most common property type in both Kuala Lumpur and Selangor.
   - **Kuala Lumpur**: Service residences are the second most prevalent, indicating demand for luxury and convenience.
@@ -81,7 +81,7 @@ The same preprocessing steps applied to the training data are applied to the tes
 
 ### Property Size Distribution
 
-![Distribution Graph: Property Sizes](images/property_size_distribution.png)
+![Distribution Graph: Property Sizes](https://i.imgur.com/your_property_size_distribution_image_link.png)
 
 - **Distribution Graph**: Selangor properties tend to be smaller, while Kuala Lumpur properties tend to be larger.
   - **Kuala Lumpur**: Attracts higher-income individuals or businesses needing larger spaces.
@@ -89,7 +89,7 @@ The same preprocessing steps applied to the training data are applied to the tes
 
 ### Model Performance
 
-![Scatter Plot: Actual vs Predicted Rent](images/actual_vs_predicted_rent.png)
+![Scatter Plot: Actual vs Predicted Rent](https://i.imgur.com/your_scatter_plot_image_link.png)
 
 - **Scatter Plot (Actual vs Predicted Rent)**: 
   - The Random Forest model shows good performance with points close to the ideal prediction line.
@@ -97,7 +97,7 @@ The same preprocessing steps applied to the training data are applied to the tes
 
 ### Feature Importance
 
-![Bar Chart: Feature Importance](images/feature_importance.png)
+![Bar Chart: Feature Importance](https://i.imgur.com/your_feature_importance_image_link.png)
 
 - **Top 10 Features**:
   - **Size**: Most significant influence on rent (importance value: 0.246770).
@@ -108,12 +108,12 @@ The same preprocessing steps applied to the training data are applied to the tes
 
 ### Model Residuals
 
-![Histogram: Residuals](images/residuals_histogram.png)
+![Histogram: Residuals](https://i.imgur.com/your_residuals_histogram_image_link.png)
 
 - **Residual Histogram**: 
   - Most residuals are normally distributed around 0, indicating unbiased and accurate predictions by the Random Forest model.
 
-![Scatter Plot: Residuals vs Predicted](images/residuals_vs_predicted.png)
+![Scatter Plot: Residuals vs Predicted](https://i.imgur.com/your_residuals_vs_predicted_image_link.png)
 
 - **Residual Scatter Plot**: 
   - Uniform distribution around y=0, suggesting consistent accuracy.
@@ -127,7 +127,7 @@ The same preprocessing steps applied to the training data are applied to the tes
 
 ### Decision Tree Visualization
 
-![Decision Tree](images/decision_tree.png)
+![Decision Tree](https://i.imgur.com/your_decision_tree_image_link.png)
 
 - **Tree Structure**: 
   - Visualizes how the model partitions the feature space based on different conditions, capturing complex relationships.
