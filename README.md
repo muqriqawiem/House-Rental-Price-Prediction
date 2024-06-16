@@ -60,3 +60,58 @@ A summary table shows the R² score and MAE for each model:
 ### Pre-Processing Test Data
 
 The same preprocessing steps applied to the training data are applied to the test data. The random forest model, when tested, showed an R² score of 71.9% and an MAE of RM247.75, indicating good performance on unseen data. The results suggest the model fits well to the training set but has slightly lower performance on the test set.
+
+## Data Interpretation
+
+### Property Prices
+
+- **Bar Chart**: Indicates higher average property prices in Kuala Lumpur (mean value: RM1900) compared to Selangor (mean value: RM1350).
+  - **Kuala Lumpur**: Higher prices due to greater employment opportunities, better transportation networks, lifestyle attractions, higher population density, and urbanization.
+  - **Selangor**: Lower prices attributed to larger geographic size and more competitive rental market.
+
+### Property Types
+
+- **Stacked Bar Chart**: Condominiums are the most common property type in both Kuala Lumpur and Selangor.
+  - **Kuala Lumpur**: Service residences are the second most prevalent, indicating demand for luxury and convenience.
+  - **Selangor**: Apartments are the second most prevalent, reflecting affordability and suitability for individuals or small families.
+
+### Property Size Distribution
+
+- **Distribution Graph**: Selangor properties tend to be smaller, while Kuala Lumpur properties tend to be larger.
+  - **Kuala Lumpur**: Attracts higher-income individuals or businesses needing larger spaces.
+  - **Selangor**: More diverse economic landscape leading to smaller, more affordable properties.
+
+### Model Performance
+
+- **Scatter Plot (Actual vs Predicted Rent)**: 
+  - The Random Forest model shows good performance with points close to the ideal prediction line.
+  - Better accuracy for lower rent values, with higher variability for higher rent values, indicating a limitation in predicting higher rents.
+
+### Feature Importance
+
+- **Top 10 Features**:
+  - **Size**: Most significant influence on rent (importance value: 0.246770).
+  - **Furnishing**: Second most important, indicating high value on convenience.
+  - **Bathrooms and Rooms**: Higher rents for properties with more bathrooms and rooms.
+  - **Parking**: Significant impact on rent, especially in urban areas.
+  - **Location and Property Type**: Specific locations like "Mont Kiara" and property types like "Service Residence" associated with higher rents.
+
+### Model Residuals
+
+- **Residual Histogram**: 
+  - Most residuals are normally distributed around 0, indicating unbiased and accurate predictions by the Random Forest model.
+- **Residual Scatter Plot**: 
+  - Uniform distribution around y=0, suggesting consistent accuracy.
+  - Wider spread for higher predicted values indicates heteroscedasticity (variability of errors).
+
+### Categorical Feature Encoding
+
+- **One-Hot Encoding**:
+  - Utilized for categorical features such as location, region, and furnishing, resulting in high-dimensional data.
+  - The Random Forest model effectively handles this high-dimensional dataset.
+
+### Decision Tree Visualization
+
+- **Tree Structure**: 
+  - Visualizes how the model partitions the feature space based on different conditions, capturing complex relationships.
+  - Helps manage computational complexity while retaining relevant information.
