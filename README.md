@@ -65,7 +65,7 @@ The same preprocessing steps applied to the training data are applied to the tes
 
 ### Property Prices
 
-![Imgur](https://imgur.com/mHVQhNB)
+![Imgur](https://i.imgur.com/mHVQhNB.png)
 
 - **Bar Chart**: Indicates higher average property prices in Kuala Lumpur (mean value: RM1900) compared to Selangor (mean value: RM1350).
   - **Kuala Lumpur**: Higher prices due to greater employment opportunities, better transportation networks, lifestyle attractions, higher population density, and urbanization.
